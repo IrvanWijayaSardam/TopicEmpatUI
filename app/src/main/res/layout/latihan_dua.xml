@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"/>
+    <Button
+        android:id="@+id/btn_dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_satu"
+        />
+    <Button
+        android:id="@+id/btn_tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_dua"
+        android:layout_alignParentRight="true"
+        android:text="3"
+        />
+    <Button
+        android:id="@+id/btn_empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_tiga"
+        android:layout_centerHorizontal="true"
+        android:text="4"
+        />
+    <Button
+        android:id="@+id/btn_lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/btn_enam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_below="@id/btn_lima"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/btn_sepuluh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:layout_below="@id/btn_enam"
+        />
+
+    <Button
+        android:id="@+id/btn_tujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/btn_sembilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_tujuh"
+        android:layout_centerHorizontal="true"
+        android:text="9" />
+    <Button
+        android:id="@+id/btn_delapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
