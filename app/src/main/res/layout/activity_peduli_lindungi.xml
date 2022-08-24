@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/me"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="12dp"
+            android:text="Hai,Irvan Wijaya"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppinssemibold"/>
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_remind"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="180dp"
+            android:src="@drawable/card_scan"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:text="Masuk ke ruang publik?"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinssemibold"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginStart="30dp"
+            android:text="Selalu terapkan protokol kesehatan"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="326dp"
+            android:src="@drawable/ic_infor"/>
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginStart="220dp"
+            android:src="@drawable/checkin_scan"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_down"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:layout_marginStart="40dp"
+            android:text="Pengaturan Check-In"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:alpha="0.3"
+            android:src="@drawable/rec_card" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="34dp"
+            android:src="@drawable/ic_syringe"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Vaksin Booster"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="40dp"
+            android:text="Anda berhak mendapatkan vaksin booster"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsregular"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="364dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="158dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_vaccine2"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="158dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_test"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/ic_ehac"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="158dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_travel"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="-12dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_sthetoscope" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="158dp"
+                android:src="@drawable/ic_hospital"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-50dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_help"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

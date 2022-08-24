@@ -68,9 +68,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/booksone"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/booksone"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -99,9 +98,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/bookstwo"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/bookstwo"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -130,9 +128,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/booksthree"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/booksthree"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -161,9 +158,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/booksfour"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/booksfour"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -201,9 +197,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/graphone"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/graphone"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -232,9 +227,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/graphtwo"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/graphtwo"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -263,9 +257,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/graphthree"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/graphthree"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -294,9 +287,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/booksfour"
                 app:civ_border_width="1dp"
-                android:background=""
+                android:background="@drawable/booksfour"
                 app:civ_border_color="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
