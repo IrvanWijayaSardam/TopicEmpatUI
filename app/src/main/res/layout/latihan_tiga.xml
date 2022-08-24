@@ -1,243 +1,310 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ECE7E7"
+    android:orientation="vertical">
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="140dp"
-        android:background="@drawable/round"
-        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="160dp"
+            android:src="@drawable/round" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/tamyiz" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super Admin"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/user" />
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Transaksi Buku"
+        android:textStyle="italic"
+        android:textColor="@color/green"
+        android:layout_marginLeft="20dp"
         />
+
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/booksone"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Transaksi Penjualan Buku"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Transaksi Penjualan Buku" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bookstwo"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data Buku || Tambah Data"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Data Buku || Tambah Buku" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/booksthree"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data Pulang Buku"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Data Piutang Buku" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/booksfour"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Laporan Penjualan Buku"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Laporan Penjualan Buku" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Transaksi Pesantren Bulanan"
+        android:textColor="@color/green"
+        android:layout_marginLeft="20dp"
         />
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/graphone"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pendaftran Santri Baru"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Pendaftaran Santri Baru" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/graphtwo"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kas(D/K)"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Kas(D/K)" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/graphthree"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data Piutang Bulanan"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Data Piutang Bulanan" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="10dp"
         android:layout_width="370dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:elevation="20dp"
+        app:cardCornerRadius="10dp"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_launcher_background"
-                android:layout_width="30dp"
-                android:layout_height="30dp"/>
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/booksfour"
+                app:civ_border_width="1dp"
+                android:background=""
+                app:civ_border_color="#FFFFFF"/>
             <TextView
-                android:layout_marginLeft="70dp"
-                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Laporan Keuangan"
-                />
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:text="Laporan Keuagan" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-
 
 </LinearLayout>
